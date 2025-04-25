@@ -11,3 +11,19 @@ body {
   width: 100vw; /* Ensure the body covers the full width of the viewport */
   background: linear-gradient(to bottom, #f51d1d, #9e2820);
 }
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(10px) saturate(200%) brightness(70%);
+    color: #fff;
+    display: flex;
+    height: 7vw;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+    padding: 0 1%;
+    z-index: 5;
+    margin: auto;
+}
