@@ -4,3 +4,7 @@
     background-color: #4CAF50; /* Background color */
     border-radius: 15px; /* Corner radius */
 }
+
+body {
+  background: linear-gradient(to right, red, blue);
+}
